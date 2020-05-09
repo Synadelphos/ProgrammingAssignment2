@@ -1,5 +1,5 @@
 ## Creates a special matrix which is a list containing functions that
-## set and get the value of the matrix, set and get the value of the solve
+## set and get the value of the matrix, set and get the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -31,3 +31,4 @@ cacheSolve <- function(x, ...) {
         x$setsolve(m)
         m
 }
+
